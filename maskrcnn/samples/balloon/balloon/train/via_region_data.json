@@ -1,0 +1,600 @@
+{
+    "IMG_0001.jpg288740": {
+        "fileref": "",
+        "size": 288740,
+        "filename": "IMG_0001.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0002.jpg198483": {
+        "fileref": "",
+        "size": 198483,
+        "filename": "IMG_0002.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0003.jpg276069": {
+        "fileref": "",
+        "size": 276069,
+        "filename": "IMG_0003.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0004.jpg284957": {
+        "fileref": "",
+        "size": 284957,
+        "filename": "IMG_0004.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1336,
+                    "cy": 851,
+                    "r": 23
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0005.jpg273950": {
+        "fileref": "",
+        "size": 273950,
+        "filename": "IMG_0005.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1147,
+                    "cy": 754,
+                    "r": 27
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0006.jpg271884": {
+        "fileref": "",
+        "size": 271884,
+        "filename": "IMG_0006.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1655,
+                    "cy": 1004,
+                    "r": 41
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0007.jpg268079": {
+        "fileref": "",
+        "size": 268079,
+        "filename": "IMG_0007.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1057,
+                    "cy": 825,
+                    "r": 18
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0008.jpg269660": {
+        "fileref": "",
+        "size": 269660,
+        "filename": "IMG_0008.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1198,
+                    "cy": 823,
+                    "r": 17
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0009.jpg275147": {
+        "fileref": "",
+        "size": 275147,
+        "filename": "IMG_0009.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1292,
+                    "cy": 823,
+                    "r": 15
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0010.jpg268147": {
+        "fileref": "",
+        "size": 268147,
+        "filename": "IMG_0010.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1340,
+                    "cy": 820,
+                    "r": 14
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0011.jpg266801": {
+        "fileref": "",
+        "size": 266801,
+        "filename": "IMG_0011.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1345,
+                    "cy": 798,
+                    "r": 12
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0012.jpg264590": {
+        "fileref": "",
+        "size": 264590,
+        "filename": "IMG_0012.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0013.jpg265057": {
+        "fileref": "",
+        "size": 265057,
+        "filename": "IMG_0013.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1449,
+                    "cy": 796,
+                    "r": 12
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0014.jpg263471": {
+        "fileref": "",
+        "size": 263471,
+        "filename": "IMG_0014.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1537,
+                    "cy": 823,
+                    "r": 12
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0015.jpg265189": {
+        "fileref": "",
+        "size": 265189,
+        "filename": "IMG_0015.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0016.jpg265061": {
+        "fileref": "",
+        "size": 265061,
+        "filename": "IMG_0016.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0017.jpg260854": {
+        "fileref": "",
+        "size": 260854,
+        "filename": "IMG_0017.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0018.jpg261559": {
+        "fileref": "",
+        "size": 261559,
+        "filename": "IMG_0018.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1691,
+                    "cy": 815,
+                    "r": 20
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0019.jpg258437": {
+        "fileref": "",
+        "size": 258437,
+        "filename": "IMG_0019.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 895,
+                    "cy": 858,
+                    "r": 23
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0020.jpg262511": {
+        "fileref": "",
+        "size": 262511,
+        "filename": "IMG_0020.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1091,
+                    "cy": 883,
+                    "r": 25
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0021.jpg261094": {
+        "fileref": "",
+        "size": 261094,
+        "filename": "IMG_0021.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1222,
+                    "cy": 881,
+                    "r": 21
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0022.jpg265638": {
+        "fileref": "",
+        "size": 265638,
+        "filename": "IMG_0022.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1279,
+                    "cy": 881,
+                    "r": 22
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0023.jpg264930": {
+        "fileref": "",
+        "size": 264930,
+        "filename": "IMG_0023.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1280,
+                    "cy": 880,
+                    "r": 20
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0024.jpg262755": {
+        "fileref": "",
+        "size": 262755,
+        "filename": "IMG_0024.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1430,
+                    "cy": 888,
+                    "r": 20
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0025.jpg262632": {
+        "fileref": "",
+        "size": 262632,
+        "filename": "IMG_0025.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1802,
+                    "cy": 915,
+                    "r": 22
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0026.jpg260786": {
+        "fileref": "",
+        "size": 260786,
+        "filename": "IMG_0026.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0027.jpg262040": {
+        "fileref": "",
+        "size": 262040,
+        "filename": "IMG_0027.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0028.jpg272552": {
+        "fileref": "",
+        "size": 272552,
+        "filename": "IMG_0028.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0029.jpg267909": {
+        "fileref": "",
+        "size": 267909,
+        "filename": "IMG_0029.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0030.jpg274423": {
+        "fileref": "",
+        "size": 274423,
+        "filename": "IMG_0030.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1001,
+                    "cy": 768,
+                    "r": 13
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0031.jpg270115": {
+        "fileref": "",
+        "size": 270115,
+        "filename": "IMG_0031.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {}
+    },
+    "IMG_0032.jpg262860": {
+        "fileref": "",
+        "size": 262860,
+        "filename": "IMG_0032.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1006,
+                    "cy": 847,
+                    "r": 22
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0033.jpg264942": {
+        "fileref": "",
+        "size": 264942,
+        "filename": "IMG_0033.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1514,
+                    "cy": 956,
+                    "r": 28
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            },
+            "1": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1023,
+                    "cy": 796,
+                    "r": 11
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0034.jpg261336": {
+        "fileref": "",
+        "size": 261336,
+        "filename": "IMG_0034.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1035,
+                    "cy": 797,
+                    "r": 12
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0035.jpg265639": {
+        "fileref": "",
+        "size": 265639,
+        "filename": "IMG_0035.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1034,
+                    "cy": 798,
+                    "r": 11
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    },
+    "IMG_0036.jpg262114": {
+        "fileref": "",
+        "size": 262114,
+        "filename": "IMG_0036.jpg",
+        "base64_img_data": "",
+        "file_attributes": {},
+        "regions": {
+            "0": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1358,
+                    "cy": 772,
+                    "r": 16
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            },
+            "1": {
+                "shape_attributes": {
+                    "name": "circle",
+                    "cx": 1032,
+                    "cy": 800,
+                    "r": 12
+                },
+                "region_attributes": {
+                    "object_name": "sports_ball"
+                }
+            }
+        }
+    }
+}
