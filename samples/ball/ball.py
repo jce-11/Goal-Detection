@@ -1,6 +1,6 @@
 """
 Mask R-CNN
-Train on the Balloon dataset and implement color splash effect.
+Train on the ball dataset and implement color splash effect.
 
 Copyright (c) 2018 Matterport, Inc.
 Licensed under the MIT License (see LICENSE for details)
@@ -12,19 +12,19 @@ Usage: import the module (see Jupyter notebooks for examples), or run from
        the command line as such:
 
     # Train a new model starting from pre-trained COCO weights
-    python3 balloon.py train --dataset=/path/to/balloon/dataset --weights=coco
+    python3 ball.py train --dataset=/path/to/ball/dataset --weights=coco
 
     # Resume training a model that you had trained earlier
-    python3 balloon.py train --dataset=/path/to/balloon/dataset --weights=last
+    python3 ball.py train --dataset=/path/to/ball/dataset --weights=last
 
     # Train a new model starting from ImageNet weights
-    python3 balloon.py train --dataset=/path/to/balloon/dataset --weights=imagenet
+    python3 ball.py train --dataset=/path/to/ball/dataset --weights=imagenet
 
     # Apply color splash to an image
-    python3 balloon.py splash --weights=/path/to/weights/file.h5 --image=<URL or path to file>
+    python3 ball.py splash --weights=/path/to/weights/file.h5 --image=<URL or path to file>
 
     # Apply color splash to video using the last weights you trained
-    python3 balloon.py splash --weights=last --video=<URL or path to file>
+    python3 ball.py splash --weights=last --video=<URL or path to file>
 """
 
 import os
@@ -35,7 +35,7 @@ import numpy as np
 import skimage.draw
 
 # Root directory of the project
-ROOT_DIR = os.path.abspath("../../../")
+ROOT_DIR = os.path.abspath("../../")
 
 # Import Mask RCNN
 sys.path.append(ROOT_DIR)
@@ -68,7 +68,7 @@ class BallConfig(Config):
     IMAGES_PER_GPU = 2
 
     # Number of classes (including background)
-    NUM_CLASSES = 1 + 1  # Background + balloon
+    NUM_CLASSES = 1 + 1  # Background + ball
 
     # Number of training steps per epoch
     STEPS_PER_EPOCH = 100
@@ -81,7 +81,7 @@ class BallConfig(Config):
 #  Dataset
 ############################################################
 
-class BallDataset(utils.Dataset):
+class ballDataset(utils.Dataset):
 
     def load_ball(self, dataset_dir, subset):
         """Load a subset of the Ball dataset.
@@ -166,13 +166,13 @@ class BallDataset(utils.Dataset):
 def train(model):
     """Train the model."""
     # Training dataset.
-    dataset_train = BalloonDataset()
-    dataset_train.load_balloon(args.dataset, "train")
+    dataset_train = ballDataset()
+    dataset_train.load_ball(args.dataset, "train")
     dataset_train.prepare()
 
     # Validation dataset
-    dataset_val = BalloonDataset()
-    dataset_val.load_balloon(args.dataset, "val")
+    dataset_val = ballDataset()
+    dataset_val.load_ball(args.dataset, "val")
     dataset_val.prepare()
 
     # *** This training schedule is an example. Update to your needs ***
@@ -267,13 +267,13 @@ if __name__ == '__main__':
 
     # Parse command line arguments
     parser = argparse.ArgumentParser(
-        description='Train Mask R-CNN to detect balloons.')
+        description='Train Mask R-CNN to detect balls.')
     parser.add_argument("command",
                         metavar="<command>",
                         help="'train' or 'splash'")
     parser.add_argument('--dataset', required=False,
-                        metavar="/path/to/balloon/dataset/",
-                        help='Directory of the Balloon dataset')
+                        metavar="/path/to/ball/dataset/",
+                        help='Directory of the ball dataset')
     parser.add_argument('--weights', required=True,
                         metavar="/path/to/weights.h5",
                         help="Path to weights .h5 file or 'coco'")
@@ -302,9 +302,9 @@ if __name__ == '__main__':
 
     # Configurations
     if args.command == "train":
-        config = BalloonConfig()
+        config = BallConfig()
     else:
-        class InferenceConfig(BalloonConfig):
+        class InferenceConfig(BallConfig):
             # Set batch size to 1 since we'll be running inference on
             # one image at a time. Batch size = GPU_COUNT * IMAGES_PER_GPU
             GPU_COUNT = 1
