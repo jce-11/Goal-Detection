@@ -1,6 +1,15 @@
-# Mask R-CNN for Object Detection and Segmentation
+# Ball detection using Mask RCNN 
+
+This is an extension to the work done by Waleed Abdulla
 
 This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
+
+The system then allows the user to specify a rectangular box for the goal post. the system with signal to the user if the object "sports ball" has crossed the goal line. 
+
+Training for MASK RCNN is in sample/ball. Shape has been changed to read inputs of circle from VGG annotator. 
+validation and training data contained in git, video/ sample 
+
+
 
 ![Instance Segmentation Sample](assets/street.png)
 
@@ -195,7 +204,7 @@ If you use Docker, the code has been verified to work on
     * Windows: https://github.com/philferriere/cocoapi.
     You must have the Visual C++ 2015 build tools on your path (see the repo for additional details)
 
-# Projects Using this Model
+# Other Projects Using this Model
 If you extend this model to other datasets or build projects that use it, we'd love to hear from you.
 
 ### [4K Video Demo](https://www.youtube.com/watch?v=OOT3UIXZztE) by Karol Majek.
