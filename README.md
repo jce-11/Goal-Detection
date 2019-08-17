@@ -9,7 +9,7 @@ The system then allows the user to specify a rectangular box for the goal post. 
 Training for MASK RCNN is in sample/ball. Shape has been changed to read inputs of circle from VGG annotator. 
 validation and training data contained in git, video/ sample 
 
-(images/Screenshot 2019-07-26 at 23.57.54.png)
+(images/'Screenshot 2019-07-26 at 23.57.54.png')
 
 
 
